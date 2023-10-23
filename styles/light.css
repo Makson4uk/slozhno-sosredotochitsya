@@ -19,10 +19,7 @@
   --bg-image: url(../images/cover-image-light.png);
   --text-size: 18px;
   --decor-none: none;
-}
-
-.theme_light .header__theme-menu-button:hover {
-  outline: 1px solid rgba(50, 49, 45, 0.4);
+  --button-hover: rgba(50, 49, 45, 0.4);
 }
 
 @media (prefers-color-scheme: light) {
@@ -36,9 +33,6 @@
     --title-color: #ffc2e6;
     --bg-image: url(../images/cover-image-light.png);
     --decor-none: none;
-  }
-
-  .header__theme-menu-button:hover {
-    outline: 1px solid rgba(50, 49, 45, 0.4);
+    --button-hover: rgba(50, 49, 45, 0.4);
   }
 }

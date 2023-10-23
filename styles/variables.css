@@ -13,4 +13,5 @@
   --text-size: 18px;
   --color-text: #F1B2CE;
   --decor-none: visible;
+  --button-hover: rgba(255, 0, 112, 0.4);
 }
